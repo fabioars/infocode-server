@@ -5,8 +5,8 @@ Esse servidor abastece o aplicativo infoCode
 ## Requisitos
 
 Os requisitos do servidor são:
-    * Node.js
-    * MongoDB
+    - Node.js
+    - MongoDB
 
 
 
