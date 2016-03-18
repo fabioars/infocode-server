@@ -7,7 +7,7 @@
     "start": "node server.js",
     "test": "node server.js"
   },
-  "author": "Fabio Soares <fabioars@live.com>; Rita Ramalho <rramalho25@hotmail.com",
+  "author": "Fabio Soares <fabioars@live.com>; Rita Ramalho <rramalho25@hotmail.com>; Matheus Vasconcelos <matheus10carneiro@gmail.com>",
   "license": "GPL-2.0",
   
   "dependencies": {
