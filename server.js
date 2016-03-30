@@ -38,6 +38,14 @@ app.get('/infocode/:collectionName/:id', function(req, res, next) {
   });
 });
 
+// Abrindo espaço pra denúncias
+app.post('/infocode/denuncia/', function(req, res, next){
+   db.collection("denuncia").insert(req.body, {}, function(e, results){
+       if(e) return next(e)
+       res.send(results);
+   }) 
+});
+
 // Iniciando servidor
 app.listen(80, function(){
     console.log("Rodando na porta 80! :)");
