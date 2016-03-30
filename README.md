@@ -9,6 +9,8 @@ Os requisitos do servidor são:
 - MongoDB
 
 
+Esse servidor foi criado para o [cliente](https://github.com/fsoares1/infocode-server)
+
 
 ## GNU GENERAL PUBLIC LICENSE
 
